@@ -70,7 +70,7 @@ h1 {
     background-color: blanchedalmond;
 }
 
-.price-individual {
+.price-individual, .buttons, .item-price {
     padding: 2px;
 }
 
