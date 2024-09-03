@@ -19,6 +19,16 @@ h1 {
     margin: 0px;
 }
 
+.top-container {
+    position: absolute;
+}
+
+.welcome {
+    position: relative;
+    z-index: 2;
+    bottom: 30px;
+}
+
 .order-here {
     color: black;
     background-color: white;
@@ -55,11 +65,17 @@ h1 {
 .item {
     border-style: solid;
     border-radius: 16px;
-    padding: 10px;
+    padding: 20px;
     margin: 20px;
     background-color: blanchedalmond;
 }
 
 .price-individual {
     padding: 2px;
+}
+
+.menu {
+    position: relative;
+    z-index: 3;
+    top: -20px;
 }
