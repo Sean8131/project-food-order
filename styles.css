@@ -5,4 +5,11 @@ body {
   font-style: normal;
   font-variation-settings: "wdth" 100;
   text-align: center;
+  height: 100vh;
+  background-color: #c2b880;
+}
+
+.main-logo {
+    max-width: 200px;
+    max-height: 200px;
 }
