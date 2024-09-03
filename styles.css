@@ -9,7 +9,19 @@ body {
   background-color: #c2b880;
 }
 
+h1 {
+    margin-bottom: 0px;
+}
+
 .main-logo {
     max-width: 200px;
     max-height: 200px;
+    margin: 0px;
+}
+
+.order-here {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 16px;
 }
