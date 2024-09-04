@@ -57,6 +57,18 @@ h1 {
     
 }
 
+.how-many {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 10px;
+    top: 40px;
+}
+
+.item-title {
+    font-size: 1.3rem;
+}
+
 .sizes {
     display: flex;
     flex-direction: column;
