@@ -80,8 +80,9 @@ h1 {
 .item {
     border-style: solid;
     border-radius: 16px;
-    padding: 20px;
-    margin: 20px;
+    padding: 32px;
+    margin-top: 20px;
+    margin-bottom: 32px;
     background-color: blanchedalmond;
 }
 
