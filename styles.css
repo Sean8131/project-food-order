@@ -5,8 +5,8 @@ body {
   font-style: normal;
   font-variation-settings: "wdth" 100;
   text-align: center;
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  max-width: 1200px;
   background-color: #c2b880;
 }
 
@@ -21,13 +21,15 @@ h1 {
 }
 
 .top-container {
-    position: absolute;
+    /* position: absolute; */
 }
 
 .welcome {
-    position: relative;
-    z-index: 2;
-    bottom: 30px;
+    /* position: relative; */
+    /* z-index: 2; */
+    /* bottom: 30px; */
+    margin-top: 0;
+    margin-bottom: 32px;
 }
 
 .order-here {
@@ -88,7 +90,7 @@ h1 {
 }
 
 .menu {
-    position: relative;
-    z-index: 3;
-    top: -20px;
+    /* position: relative; */
+    width: 80%;
+    margin: auto;
 }
