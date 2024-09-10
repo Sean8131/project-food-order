@@ -42,14 +42,14 @@
                 </div>
                 <div class="quantity-labels">
                     <div>
-                        <input class="buttons" type="number" id="veggie-amount-small" name="quantity" required minlength="1"
+                        <input onChange="calculate()" value="0" class="buttons" type="number" id="veggie-amount-small" name="quantity" required minlength="1"
                             maxlength="2" size="2" />
                     </div>
                     <div>
-                        <input class="buttons" type="number" id="veggie-amount-medium" name="quantity" required minlength="1" maxlength="2"
+                        <input onChange="calculate()" value="0" class="buttons" type="number" id="veggie-amount-medium" name="quantity" required minlength="1" maxlength="2"
                             size="2" />
                     </div>
-                    <div><input class="buttons" type="number" id="veggie-amount-large" name="quantity" required minlength="1" maxlength="2"
+                    <div><input onChange="calculate()" value="0" class="buttons" type="number" id="veggie-amount-large" name="quantity" required minlength="1" maxlength="2"
                             size="2" /></div>
                 </div>
             </div>
@@ -83,14 +83,14 @@
                 </div>
                 <div class="quantity-labels">
                     <div>
-                        <input class="buttons" type="number" id="classic-amount-small" name="quantity" required minlength="1"
+                        <input onChange="calculate()" value="0" class="buttons" type="number" id="classic-amount-small" name="quantity" required minlength="1"
                             maxlength="2" size="2" />
                     </div>
                     <div>
-                        <input class="buttons" type="number" id="classic-amount-medium" name="quantity" required minlength="1" maxlength="2"
+                        <input onChange="calculate()" value="0" class="buttons" type="number" id="classic-amount-medium" name="quantity" required minlength="1" maxlength="2"
                             size="2" />
                     </div>
-                    <div><input class="buttons" type="number" id="classic-amount-large" name="quantity" required minlength="1" maxlength="2"
+                    <div><input onChange="calculate()" value="0" class="buttons" type="number" id="classic-amount-large" name="quantity" required minlength="1" maxlength="2"
                             size="2" /></div>
                 </div>
             </div>
@@ -119,14 +119,14 @@
                 </div>
                 <div class="quantity-labels">
                     <div>
-                        <input class="buttons" type="number" id="italian-amount-small" name="quantity" required minlength="1"
+                        <input onChange="calculate()" value="0" class="buttons" type="number" id="italian-amount-small" name="quantity" required minlength="1"
                             maxlength="2" size="2" />
                     </div>
                     <div>
-                        <input class="buttons"type="number" id="italian-amount-medium" name="quantity" required minlength="1" maxlength="2"
+                        <input onChange="calculate()" value="0" class="buttons"type="number" id="italian-amount-medium" name="quantity" required minlength="1" maxlength="2"
                             size="2" />
                     </div>
-                    <div><input class="buttons" type="number" id="italian-amount-large" name="quantity" required minlength="1" maxlength="2"
+                    <div><input onChange="calculate()" value="0" class="buttons" type="number" id="italian-amount-large" name="quantity" required minlength="1" maxlength="2"
                             size="2" /></div>
                 </div>
             </div>
@@ -144,6 +144,7 @@
 
         </div>
     </div>
+    <button class="place-order-button" onClick="calculate()"><b>Place Order!</b></onClick>
     </section>
     <script src="script.js"></script>
 </body>

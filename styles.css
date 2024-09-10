@@ -107,11 +107,22 @@ h1 {
 
 section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 30px;
 }
 
 .buttons {
     width: 60%;
     text-align: center;
+}
+
+.place-order-button {
+    border-style: solid;
+    width: 20%;
+    border-radius: 16px;
+    padding: 16px;
+    gap: 10px;
+    background-color: #F3CED4;
 }
