@@ -42,14 +42,14 @@
                 </div>
                 <div class="quantity-labels">
                     <div>
-                        <input class="buttons" type="text" id="quantity" name="quantity" required minlength="1"
+                        <input class="buttons" type="number" id="veggie-amount-small" name="quantity" required minlength="1"
                             maxlength="2" size="2" />
                     </div>
                     <div>
-                        <input type="text" id="quantity" name="quantity" required minlength="1" maxlength="2"
+                        <input class="buttons" type="number" id="veggie-amount-medium" name="quantity" required minlength="1" maxlength="2"
                             size="2" />
                     </div>
-                    <div><input type="text" id="quantity" name="quantity" required minlength="1" maxlength="2"
+                    <div><input class="buttons" type="number" id="veggie-amount-large" name="quantity" required minlength="1" maxlength="2"
                             size="2" /></div>
                 </div>
             </div>
@@ -83,14 +83,14 @@
                 </div>
                 <div class="quantity-labels">
                     <div>
-                        <input class="buttons" type="text" id="quantity" name="quantity" required minlength="1"
+                        <input class="buttons" type="number" id="classic-amount-small" name="quantity" required minlength="1"
                             maxlength="2" size="2" />
                     </div>
                     <div>
-                        <input type="text" id="quantity" name="quantity" required minlength="1" maxlength="2"
+                        <input class="buttons" type="number" id="classic-amount-medium" name="quantity" required minlength="1" maxlength="2"
                             size="2" />
                     </div>
-                    <div><input type="text" id="quantity" name="quantity" required minlength="1" maxlength="2"
+                    <div><input class="buttons" type="number" id="classic-amount-large" name="quantity" required minlength="1" maxlength="2"
                             size="2" /></div>
                 </div>
             </div>
@@ -119,14 +119,14 @@
                 </div>
                 <div class="quantity-labels">
                     <div>
-                        <input class="buttons" type="text" id="quantity" name="quantity" required minlength="1"
+                        <input class="buttons" type="number" id="italian-amount-small" name="quantity" required minlength="1"
                             maxlength="2" size="2" />
                     </div>
                     <div>
-                        <input type="text" id="quantity" name="quantity" required minlength="1" maxlength="2"
+                        <input class="buttons"type="number" id="italian-amount-medium" name="quantity" required minlength="1" maxlength="2"
                             size="2" />
                     </div>
-                    <div><input type="text" id="quantity" name="quantity" required minlength="1" maxlength="2"
+                    <div><input class="buttons" type="number" id="italian-amount-large" name="quantity" required minlength="1" maxlength="2"
                             size="2" /></div>
                 </div>
             </div>
@@ -136,9 +136,15 @@
 
     </div>
     </div>
-    <button class="order-here" type="button">
-        <a href="./menu.html">Place my order</a>
-    </button>
+    <section>
+        <div class="total-amount-and-price">
+            <div  id="total-amount">Total Amount:
+        </div>
+        <div id="total-price">Total Price:
+
+        </div>
+    </div>
+    </section>
     <script src="script.js"></script>
 </body>
 
